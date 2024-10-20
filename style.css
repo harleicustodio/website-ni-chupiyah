@@ -641,10 +641,10 @@ header nav{
 .filter .item input,
 .filter .item button{
     width: 100%;
-    padding: 5px;
+    padding: 4px;
     border: none;
     background-color: transparent;
-    border-left: 1px solid #ddd;
+    border-left: 1px solid #242424;
     outline: none;
 }
 
@@ -652,6 +652,11 @@ header nav{
     display: block;
     width: 40%;
     padding: 0 10px;
+}
+
+.filter .item.submit {
+    background-color: #4f8b69;
+    border-radius: 5px;
 }
 
 .filter .item.submit button{
@@ -663,6 +668,11 @@ header nav{
     font-size: xx-large;
     text-align: center;
     padding: 20px;
+    color: #ffff;
+}
+
+.countResults b {
+    color: #fff;
 }
 
 #list{
@@ -696,7 +706,6 @@ header nav{
     letter-spacing: 1px;
     padding: 20px;
 }
-
 
 /* footer */
 
@@ -779,9 +788,5 @@ header nav{
 }
 
 .footer .copyright {
-    color: #fff;
-}
-
-.footer .social a i{
     color: #fff;
 }
